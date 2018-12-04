@@ -1,23 +1,14 @@
 <?php
 session_start();
 include "menu.php";
-/*
-if($_SESSION['user']=='ERROR'){
-    echo "<script type='text/javascript'>window.confirm('El usuario introducido no existe.');</script>";
-    $_SESSION['user']=NULL;
 
-}else if($_SESSION['password']=='ERROR'){
-  echo "<script type='text/javascript'>window.confirm('La contraseña introducida no es correcta.');</script>";
-  $_SESSION['password']=NULL;
-}
-*/
 ?>
 
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="estilos.css">
     <title>Login</title>
 </head>
 <body>

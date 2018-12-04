@@ -1,7 +1,8 @@
 <?php
 
 class Empleado{
-    public $nombre;
+    public $nombre = ("Sueño", "Muerte", "Destino", "Destrucción", "Delirio", "Desespero",
+    "Deseo");
     public $sueldo;
 
 
